@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Wordle Analyzer</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1
+        class="uppercase font-bold text-xl tiny:text-3xl sm:text-4xl tracking-wider"
+      >
+        Wordle Analyzer
+      </h1>
+      <p class="my-3 text-md">
+        Do you know the game
+        <a href="https://wordle.danielfrg.com/"
+          >Wordle (https://wordle.danielfrg.com/)</a
+        >?
+      </p>
+      <p class="my-3 text-md">
+        Wordle is a game where you should find a 5-letter word. <br />
+        Every attempt should be a valid a 5-letter word (validated using the
+        dictionary). <br />
+        After each attempt the letters change color showing if the letter is on
+        the final word and if it is in the correct place. <br />
+      </p>
+      <p class="my-3 text-md">
+        This game become a sensation among friends and we all want to win in the
+        less amount of attempts as possible.
+      </p>
+      <p class="my-3 text-md">
+        That's why you will apply some Code Magic to get us the best words to
+        start the game.
+      </p>
+      <p class="my-3 text-md font-bold">
+        We consider the best word to start the game the one with the most common
+        letters among all the words of the dictionary.
+      </p>
+      <p class="my-3 text-md">
+        Dictionary: 'dictionary.ts' contains a list of the words of the
+        dictionary
+      </p>
+      <p class="my-3 text-md">
+        Write some code to get the best word of the given dictionary to start
+        the game with.
+      </p>
+      <p class="my-3 text-md">
+        Tip: think about an score system or weight system to rank the words.
+      </p>
+    </div>
+    <script src="src/index.ts"></script>
+  </body>
+</html>
