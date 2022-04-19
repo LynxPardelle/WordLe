@@ -75,8 +75,9 @@ do {
   if (doesntHaveIt === true) {
     if (chosenWord !== "") {
       moreChosenWords.push(MyWords[i][0]);
+    } else {
+      chosenWord = MyWords[i][0];
     }
-    chosenWord = MyWords[i][0];
   }
   i++;
 } while (chosenWord === "" || moreChosenWords.length < 5);
